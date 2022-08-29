@@ -1,0 +1,183 @@
+*{
+margin:0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.body {
+text-align: center;
+font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: centerjus;
+    justify-content: space-between;
+    height: 64px;
+    background-color: rgba(8, 5, 0, 0.925);
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+.navbar {
+    display: flex;
+    margin-right: 20px;
+
+}
+.logo {
+    margin-left: 30px;
+
+}
+.logo a {
+    text-decoration: none;
+    color: bisque;
+    text-transform: uppercase;
+    font-size: 20px ;
+}
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: bisque;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a :hover{
+    background-color: rgb(13, 137, 168);
+}
+.header {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    }
+.header {
+    height: 90vh!important;
+    background:url(23.jpg) no-repeat center;
+    background-size: cover;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+p {
+margin-bottom: 40px;
+font-size: 18px;
+color: rgb(235, 223, 223);
+padding: 0 100px;
+
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: 2px solid;
+    color: antiquewhite;
+    text-decoration: nome;
+    background: seagreen;
+    
+}
+.btn :hover{
+background: nome;
+
+}
+.btn-home{
+    display: flex;
+
+}
+.btn-home a{
+    margin: 0 10px;
+}
+.content{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    padding: 80px;
+    height: 60vh!important;
+ background: url(34.jpg) no-repeat center;
+ background-attachment: fixed;
+    background-size: cover;
+ background-size: cover;
+    
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.box-container.box{
+    height: 11rem;
+    width: 17rem;
+    background: rgb(240, 231, 231);
+    text-align: center;
+    border-radius:1rem ;
+    box-shadow: 0 .3rem 5rem rgb(15, 15, 15);
+    margin: 2rem;
+    
+}
+.box-container.box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: antiquewhite;
+    background: aquamarine;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+
+}
+.box-container.box h3{
+    font-size: 20px;
+    color: aquamarine;
+}
+.box-container.box.p{
+    padding:0 15px;
+    font-size: 16px;
+
+}
+.about {
+    height: 60vh!important;
+background: url(34.jpg)no-repeat center;
+background-attachment: fixed;
+    background-size: cover;
+background-size: cover;
+}
+.price{
+    background: url(nike-kyrie-v_11tegqq8nb7ex16w6on8u5oidx.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+.contac{
+    padding: 20bx;
+    background: darkslategrey;
+    padding-bottom: 0;
+
+}
+@media (max-width: 768) {
+    
+    .title{
+    margin-bottom: 0;
+    font-size: 40px;}
+    .sau{
+        height: 120vh;
+
+    }
+    .navbar{
+        display: none;
+    }
+}
